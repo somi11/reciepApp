@@ -2,10 +2,10 @@
   "name": "receipeapp",
   "version": "1.0.0",
   "description": "this is a receipe finding app",
-  "default": "index.html",
+  "main": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "main": "parcel build index.html --dist-dir ./dist"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "rabnawaz",
   "license": "ISC",
